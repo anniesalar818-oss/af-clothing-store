@@ -1,12 +1,12 @@
 const products = [
-  {id:1, img:'images/p1.jpg?v=3', name:'Emerald Lawn Ensemble', cat:'Lawn', price:12500, oldPrice:15000, tag:'New Arrival', desc:'Hand-embroidered emerald lawn suit with delicate thread work and organza dupatta. Perfect for summer soirées.'},
-  {id:2, img:'images/p2.jpg?v=3', name:'Rose Garden Chiffon', cat:'Chiffon', price:18900, tag:'Bestseller', desc:'Soft chiffon in dusty rose with floral hand-embroidery. Includes matching trousers and sheer dupatta.'},
-  {id:3, img:'images/p3.jpg?v=3', name:'Ivory Silk Formal', cat:'Silk', price:24500, oldPrice:28000, tag:'Limited Edition', desc:'Pure raw silk in ivory with gold thread accents. A timeless formal piece for weddings and Eid celebrations.'},
-  {id:4, img:'images/p4.jpg?v=3', name:'Midnight Velvet Coat', cat:'Velvet', price:21000, tag:'Winter Pick', desc:'Luxurious velvet coat with zardozi embroidery on cuffs and neckline. Pairs beautifully with silk inner.'},
-  {id:5, img:'images/p5.jpg?v=3', name:'Sapphire Organza Set', cat:'Organza', price:16800, tag:"Editor's Pick", desc:'Translucent organza in deep sapphire with scalloped hemlines and mirror-work embellishments.'},
-  {id:6, img:'images/p6.jpg?v=3', name:'Pearl White Karandi', cat:'Karandi', price:14200, tag:'New Arrival', desc:'Breathable karandi weave in pearl white with subtle self-print. Ideal for everyday elegance.'},
-  {id:7, img:'images/p7.jpg?v=3', name:'Gold Heritage Lehnga', cat:'Festive', price:45000, oldPrice:52000, tag:'Bridal', desc:'Heavily embroidered lehnga in gold with classic Mughal motifs. A statement piece for special occasions.'},
-  {id:8, img:'images/p8.jpg?v=3', name:'Peony Print Lawn', cat:'Lawn', price:8900, tag:'Summer Essential', desc:'Lightweight lawn with peony print in blush tones. Comfortable and chic for daily wear.'}
+  {id:1, img:'images/p1.jpg?v=4', name:'Emerald Lawn Ensemble', cat:'Lawn', price:12500, oldPrice:15000, tag:'New Arrival', desc:'Hand-embroidered emerald lawn suit with delicate thread work and organza dupatta. Perfect for summer soirées.'},
+  {id:2, img:'images/p2.jpg?v=4', name:'Rose Garden Chiffon', cat:'Chiffon', price:18900, tag:'Bestseller', desc:'Soft chiffon in dusty rose with floral hand-embroidery. Includes matching trousers and sheer dupatta.'},
+  {id:3, img:'images/p3.jpg?v=4', name:'Ivory Silk Formal', cat:'Silk', price:24500, oldPrice:28000, tag:'Limited Edition', desc:'Pure raw silk in ivory with gold thread accents. A timeless formal piece for weddings and Eid celebrations.'},
+  {id:4, img:'images/p4.jpg?v=4', name:'Midnight Velvet Coat', cat:'Velvet', price:21000, tag:'Winter Pick', desc:'Luxurious velvet coat with zardozi embroidery on cuffs and neckline. Pairs beautifully with silk inner.'},
+  {id:5, img:'images/p5.jpg?v=4', name:'Sapphire Organza Set', cat:'Organza', price:16800, tag:"Editor's Pick", desc:'Translucent organza in deep sapphire with scalloped hemlines and mirror-work embellishments.'},
+  {id:6, img:'images/p6.jpg?v=4', name:'Pearl White Karandi', cat:'Karandi', price:14200, tag:'New Arrival', desc:'Breathable karandi weave in pearl white with subtle self-print. Ideal for everyday elegance.'},
+  {id:7, img:'images/p7.jpg?v=4', name:'Gold Heritage Lehnga', cat:'Festive', price:45000, oldPrice:52000, tag:'Bridal', desc:'Heavily embroidered lehnga in gold with classic Mughal motifs. A statement piece for special occasions.'},
+  {id:8, img:'images/p8.jpg?v=4', name:'Peony Print Lawn', cat:'Lawn', price:8900, tag:'Summer Essential', desc:'Lightweight lawn with peony print in blush tones. Comfortable and chic for daily wear.'}
 ];
 
 let cart = JSON.parse(localStorage.getItem('af_cart') || '[]');
